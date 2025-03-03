@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: left; /* Alinea el contenido a la izquierda */
+    margin: 20px;
+}
+
+.video-container {
+    margin: 20px 0;
+    padding: 10px;
+    width: 360px;
+}
+
+
+
+/* Hace que la lista desordenada se muestre en una sola línea */
+ul {
+    list-style: none; /* Quita los estilos de viñetas */
+    padding: 0;
+    display: flex; /* Usa flexbox para colocar los elementos en línea */
+    gap: 10px; /* Espaciado entre elementos */
+}
+
+ul li {
+    display: inline-block; /* Asegura que los elementos sean en línea */
+}
