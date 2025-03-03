@@ -3,9 +3,9 @@
 function login($usuario, $password):bool {
     $autenticado = false;
     $file = fopen("config/usuarios.txt","r");
-    /*
-    EJ. Carga en un array los usuarios y contraseñas almacenados en el fichero usuarios.txt
-    */
+    while (!feof($file)) {
+        $aUsuarios[] = explode(',',fgets($file));
+    }
 
     foreach ($aUsuarios as $credenciales) {
        if (trim($credenciales[0])==$usuario and trim($credenciales[1])==$password) {
