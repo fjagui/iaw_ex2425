@@ -1,4 +1,6 @@
 # IMPLANTACIÓN DE APLICACIONES WEB
+**DriveUp Autoescuela**
+El objetivo del ejercicio es simular una plataforma onlinea de una autoescuela, trabajando con un sistema de autenticación basado en archivos, gestión de sesiones, uso de cookies y la integración de contenido dinámico utilizando arrays de configuración.
 
 ## Instrucciones
 
@@ -7,7 +9,7 @@ A continuación, se presentan los pasos que debes seguir para completar el ejerc
 1. **Revisión de la aplicación**  
    Visita la siguiente dirección para ver la aplicación completa en funcionamiento:
    
-   👉 [htto://192.](#) (Reemplazar con la URL correspondiente)
+   👉 [http://192.168.12.130/iaw/exa_2425](#)
 
 2. **Descarga del proyecto**  
    Clona el repositorio de GitHub donde se encuentra el código base del proyecto:
