@@ -15,7 +15,7 @@ A continuación, se presentan los pasos que debes seguir para completar el ejerc
    Clona el repositorio de GitHub donde se encuentra el código base del proyecto:
    
    ```bash
-   git clone https://github.com/USUARIO/REPOSITORIO.git
+   git clone https://github.com/fjagui/iaw_ex2425.git
    ```
    
    Luego, accede a la carpeta del proyecto:
@@ -39,15 +39,16 @@ A continuación, se presentan los pasos que debes seguir para completar el ejerc
    - `test.php` → Página privada disponible solo para usuarios registrados, donde se pueden realizar los tests de una autoescuela.
 
 4. **Implementación del código PHP**  
-   En los archivos `index.php` y `test.php`, encontrarás secciones comentadas que indican dónde debes escribir código PHP. Tu tarea consiste en reemplazar esos comentarios con el código adecuado para que la aplicación funcione correctamente.
+   En los archivos `index.php` y `test.php`, encontrarás secciones comentadas que indican dónde debes escribir código PHP. Tu tarea consiste en completar esos comentarios con el código adecuado para que la aplicación funcione correctamente.
+   En total hay 10 bloques de comentarios que debes completar.
 
-5. **Autenticación y Control de Acceso**  
+6. **Autenticación y Control de Acceso**  
    - La aplicación usa el archivo `usuarios.txt` para validar los usuarios registrados.
    - La página `test.php` solo debe ser accesible para usuarios autenticados.
    - Se utiliza un sistema de **cookies** para recordar el último test realizado y cargar automáticamente el siguiente al ingresar a la página privada.
 
-6. **Entrega**  
-   Una vez realizados los cambios, comprime la carpeeta del proyecto y súbela a Moodle.
+7. **Entrega**  
+   Una vez realizados los cambios, comprime la carpeta (`apellido1apellido2nombe`) del proyecto y súbela a Moodle.
 
 **¡Buena suerte!** 🚀
 
