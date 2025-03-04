@@ -8,10 +8,14 @@ A continuación, se presentan los pasos que debes seguir para completar el ejerc
 
 1. **Revisión de la aplicación**  
    Visita la siguiente dirección para ver la aplicación completa en funcionamiento:
-   
+  
    👉 [http://192.168.12.130/iaw/exa_2425](http://192.168.12.130/iaw/ex1_2425/index.php)
 
-2. **Descarga del proyecto**  
+   Credenciales de acceso:
+       Usuario: admin
+       Contraseña: admin
+
+3. **Descarga del proyecto**  
    Clona el repositorio de GitHub donde se encuentra el código base del proyecto:
    
    ```bash
@@ -24,9 +28,8 @@ A continuación, se presentan los pasos que debes seguir para completar el ejerc
    cd REPOSITORIO
    ```
 
-3. **Estructura del Proyecto**  
+4. **Estructura del Proyecto**  
    El proyecto contiene la siguiente estructura de directorios y archivos importantes:
-   
    - `config/` → Contiene el archivo de configuración con:
      - Un **array de tests**.
      - Un **array de vídeos** utilizados en la aplicación.
@@ -38,16 +41,19 @@ A continuación, se presentan los pasos que debes seguir para completar el ejerc
    - `index.php` → Página pública que muestra una lista de vídeos y permite autenticarse.
    - `test.php` → Página privada disponible solo para usuarios registrados, donde se pueden realizar los tests de una autoescuela.
 
-4. **Implementación del código PHP**  
-   En los archivos `index.php` y `test.php`, encontrarás secciones comentadas que indican dónde debes escribir código PHP. Tu tarea consiste en completar esos comentarios con el código adecuado para que la aplicación funcione correctamente.
+5. **Implementación del código PHP**  
+   En los archivos `index.php` y `test.php`, encontrarás secciones comentadas que indican dónde debes escribir código PHP.
+   Tu tarea consiste en completar esos comentarios con el código adecuado para que la aplicación funcione correctamente. 
    En total hay 10 bloques de comentarios que debes completar.
+   En index.php encontrarás ejericicios con un nivel de dificultad bajo y en test.php ejercicios de mayor dificultad.
+   Si lo consideras necesario, puedes simplificar la vista ofrecida al usuario con los resultados de los test.
 
-6. **Autenticación y Control de Acceso**  
+7. **Autenticación y Control de Acceso**  
    - La aplicación usa el archivo `usuarios.txt` para validar los usuarios registrados.
    - La página `test.php` solo debe ser accesible para usuarios autenticados.
-   - Se utiliza un sistema de **cookies** para recordar el último test realizado y cargar automáticamente el siguiente al ingresar a la página privada.
+   - Se utiliza un sistema de **cookies** para recordar el último test realizado y cargar automáticamente el siguiente al ingresar a la página privada. 
 
-7. **Entrega**  
+8. **Entrega**  
    Una vez realizados los cambios, comprime la carpeta (`apellido1apellido2nombe`) del proyecto y súbela a Moodle.
 
 **¡Buena suerte!** 🚀
