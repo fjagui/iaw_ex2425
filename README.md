@@ -9,7 +9,7 @@ A continuación, se presentan los pasos que debes seguir para completar el ejerc
 1. **Revisión de la aplicación**  
    Visita la siguiente dirección para ver la aplicación completa en funcionamiento:
    
-   👉 [http://192.168.12.130/iaw/exa_2425](#)
+   👉 [http://192.168.12.130/iaw/exa_2425](http://192.168.12.130/iaw/exa_2425)
 
 2. **Descarga del proyecto**  
    Clona el repositorio de GitHub donde se encuentra el código base del proyecto:
